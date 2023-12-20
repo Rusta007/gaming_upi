@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-green-600 {
+  color: rgba(67, 135, 120, 255);
+}
+
+.border-green-600 {
+  border-color: rgba(67, 135, 120, 255);
+}
+
+.ql-snow .ql-editor img {
+  max-width: 50% !important;
+}
+.ql-snow .ql-editor pre.ql-syntax {
+  background-color: white !important;
+  color: #23241f !important;
+}
+
+.ql-container {
+  height: 100px !important;
+}
+.ql-syntax {
+  padding: 5px 15px 0px 25px;
+  background: #f4f5f7;
+  color: #5a6681;
+  position: relative;
+  display: flow !important;
+}
+.messageText ol {
+  list-style: numeric !important;
+  margin-left: 16px !important;
+}
+.messageText ul {
+  list-style: circle !important;
+  margin-left: 16px !important;
+}
+.messageText li:nth-last-child(-n + 1) {
+  display: none !important;
+}
+.messageText div:last-child {
+  display: none !important;
+}
+.ql-syntax div:last-child {
+  display: inline !important;
+}
+.messageText span {
+  padding: 5px;
+  /* background: #f4f5f7; */
+  color: gray;
+}
+.ql-syntax span {
+  padding: 5px 0px 5px 5px;
+  background: #f4f5f7;
+  color: gray;
+}
+.messageText li:nth-last-child(-n + 1) {
+  display: none !important;
+}
+
+
+.messageText span:first-child {
+  position: relative;
+  z-index: 1;
+  background: #f4f5f7;
+  margin-right: 18px;
+}
+
+.ql-syntax div {
+  display: inline;
+  margin-right: 5px;
+  position: absolute;
+  left: 5px;
+}

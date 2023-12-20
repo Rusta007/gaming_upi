@@ -1,0 +1,50 @@
+[
+    {
+        "sr" : 1,
+        "platform" : "Ratnakar Traders",
+        "orderid"  : "P231125150012rat",
+        "receiptid" : "RVEXLPDPSY",
+        "customername" : "Ratnakar",
+        "amount" : 100.00,
+        "paymentstatus" : "pending",
+        "utr" : 332305046557,
+        "type" : "payin",
+        "paymenttype" : "upi",
+        "assignedto" : "hdfc",
+        "assignedupi" : "wizition@okaxis",
+        "approvedby" : "admin"
+
+    },
+    {
+        "sr" : 2,
+        "platform" : "Ratnakar Traders",
+        "orderid"  : "P231125150012rat",
+        "receiptid" : "RVEXLPDPSY",
+        "customername" : "Ratnakar",
+        "amount" : 100.00,
+        "paymentstatus" : "pending",
+        "utr" : 332305046557,
+        "type" : "payin",
+        "paymenttype" : "upi",
+        "assignedto" : "hdfc",
+        "assignedupi" : "wizition@okaxis",
+        "approvedby" : "admin"
+
+    },
+    {
+        "sr" : 3,
+        "platform" : "Ratnakar Traders",
+        "orderid"  : "P231125150012rat",
+        "receiptid" : "RVEXLPDPSY",
+        "customername" : "Ratnakar",
+        "amount" : 100.00,
+        "paymentstatus" : "pending",
+        "utr" : 332305046557,
+        "type" : "payin",
+        "paymenttype" : "upi",
+        "assignedto" : "hdfc",
+        "assignedupi" : "wizition@okaxis",
+        "approvedby" : "admin"
+
+    }
+]

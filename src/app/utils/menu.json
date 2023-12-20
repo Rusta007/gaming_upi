@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Dashboard",
+    "icon": "AiOutlineDashboard",
+    "subtitle": "Dashboard",
+    "submenuLength": 0,
+    "route": "/"
+  },
+  {
+    "title": "Transaction",
+    "icon": "AiOutlineCreditCard",
+    "subtitle": "Transaction",
+    "submenuLength": 2,
+    "submenu": [
+      {
+        "title": "Test Transaction",
+        "icon": "AiOutlineCreditCard",
+        "subtitle": "Card 1",
+        "route": "/transaction/card1"
+      },
+      {
+        "title": "Live Transaction",
+        "icon": "AiOutlineCreditCard",
+        "subtitle": "Card 2",
+        "route": "/transaction/card2"
+      }
+    ]
+  },
+  {
+    "title": "Bank",
+    "icon": "AiOutlineWallet",
+    "subtitle": "Bank",
+    "submenuLength": 0,
+    "route": "/bank"
+  },
+  {
+    "title": "User",
+    "icon": "AiOutlineFileText",
+    "subtitle": "User",
+    "submenuLength": 0,
+    "route": "/user"
+  },
+
+  {
+    "title": "Payout",
+    "icon": "AiOutlineTransaction",
+    "subtitle": "Payout",
+    "route": "/payout"
+  },
+  {
+    "title": "Rules",
+    "icon": "AiOutlineFileAdd",
+    "subtitle": "Rules",
+    "submenuLength": 0,
+    "route": "/rules"
+  },
+  {
+    "title": "Report",
+    "icon": "AiOutlineReport",
+    "subtitle": "Report",
+    "submenuLength": 0,
+    "route": "/report"
+  },
+  {
+    "title": "Extra",
+    "icon": "AiOutlineTicket",
+    "subtitle": "Extra",
+    "submenuLength": 1,
+    "route": "/extra/ticket",
+    "submenu": [
+      {
+        "title": "Ticket",
+        "icon": "AiOutlineTicket",
+        "subtitle": "Ticket",
+        "route": "/extra/ticket"
+      }
+    ]
+  }
+]
